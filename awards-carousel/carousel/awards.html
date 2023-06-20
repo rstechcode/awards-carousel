@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Awards</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+      <div id="demo">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+
+              <div id="owl-demo" class="owl-carousel ">
+                  <div class="item"><img src="assets/images/7.png" alt="Owl Image"><p><span> Gold Award (2023) -</span>Tata Tiago.ev
+                    Best Use of Analytics</p></div>
+                  <div class="item"><img src="assets/images/1.png" alt="Owl Image"><p><span>Diamond Sabre Awards South Asia (2022) – </span>Tata Motors Superior Achievement In Measurement & Evaluation</p></div>
+                  <div class="item"><img src="assets/images/2.png" alt="Owl Image"><p><span>ImageXX Gold Award (2022)  –</span> Tata Motors Best Use of Analytics</p></div>
+                  <div class="item"><img src="assets/images/3.png" alt="Owl Image"><p><span>Amec Awards Bronze –</span>  Tata Motors Strategy For Better Mileage Clicks</p></div>
+                  <div class="item"><img src="assets/images/4.png" alt="Owl Image"><p><span>Amec Awards Bronze – </span> Towards Communications Leadership, using analytics & creativity</p></div>
+                  <div class="item"><img src="assets/images/5.png" alt="Owl Image"><p><span>Amec Awards Bronze – </span> Simplifying Complex Analytics for Easy Decision Making</p></div>
+                  <div class="item"><img src="assets/images/6.png" alt="Owl Image"><p><span>Best use of Analytics - </span>Concept BIU & Godrej Industries Limited - Simplifying Complex Analytics for Easy Decision Making</p></div>
+                  
+                  
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery-1.9.1.min.js"></script> 
+    <script src="assets/js/owl.carousel.js"></script>
+
+
+    <!-- Demo -->
+
+    <style>
+      .container {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: calc(100% - 30px);
+}
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item p{font-size: 14px; font-family: 'Manrope', sans-serif;}
+    #owl-demo .item p span{color:#B66D00;   font-size: 14px;  font-weight: 600;}
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        
+        itemsDesktopSmall : [979,1]
+
+      });
+
+    });
+    </script>
+
+
+
+  </body>
+</html>
